@@ -12,8 +12,8 @@ cat tmp.txt >> secrets.txt && \
 apg -a 0 -n 10 -m 96 > tmp.txt && \
 apg -a 1 -n 10 -m 96 >> tmp.txt && \
 cat tmp.txt >> secrets.txt && \
+cat secrets.txt && \
 mv secrets.txt secrets`date +%S%M`.txt && \
-cat tmp.txt && \
 rm tmp.txt && \
 ccrypt -e *.txt && \
 exit
