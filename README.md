@@ -7,7 +7,7 @@ You need Linux/Unix/BSD/macOS with sh like shell.
 You need to have ccrypt and apg utilities installed.
 To run this script on Windows you need to install and enable WSL (Windows Subsystem for Linux),
 install Ubuntu and then install utilities mentioned above.
-You can also msys or mingw and then install required utilities.
+You can also install msys or mingw and then install required utilities.
 
 ## Setup
 ```
