@@ -1,3 +1,4 @@
+#!/bin/sh
 touch tmp.txt && \
 touch secrets.txt && \
 apg -a 0 -n 10 -m 12 > tmp.txt && \
